@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family:'Poiret One', cursive;
+}
+body {
+  background: gray;
+  position: relative;
+}
+div#shell {
+  display: block;
+  position: relative;
+  margin: 100px auto;
+  width: 318px;
+  height: 318px;
+  z-index: 0;
+}
+img {
+  position: absolute;
+}
+img#sun {
+  z-index: 1;
+  top: 10px;
+  left: 60px;
+  width: 200px;
+  height: 200px;
+}
+img#sunrays {
+  z-index: 0;
+  top: -20px;
+  left: 20px;
+  width: 265px;
+  height: 265px;
+}
+img#front-cloud {
+  z-index: 4;
+  top: 179px;
+  left: 260px;
+  width: 300px;
+  height: 300px;
+}
+img#middle-cloud {
+  z-index: 3;
+  top: 39px;
+  left: -40px;
+  width: 500px;
+  height: 500px;
+}
+img#back-cloud {
+  top: 25px;
+  left: -140px;
+  z-index: 2;
+  width: 300px;
+  height: 300px;
+}
+#p, #l, #a, #x {
+  position: absolute;
+  top: 560px;
+  font-size: 50px;
+  color: white;
+}
+#p {
+  left: 10px;
+}
+#l {
+  left: 110px;
+}
+#a {
+  left: 210px;
+}
+#x {
+  left: 310px;
+}
+.btn {
+  position: absolute;
+  height: 50px;
+  width: 150px;
+  background-color: #C0D9AF;
+  left: 200px;
+  top: -35px;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+  font-size: 20px;
+}
